@@ -1,0 +1,61 @@
+{
+    "products": [
+      { "id": 1, 
+      "name": "Headphone-1" ,
+        "catagoryId":2,
+        "description":"Description goes here",
+        "price":500,
+        "Brand_NAme":"Noise",
+        "rating":4.5,
+        "reviews":300,
+        "warrenty":2
+    },
+    { "id": 1, 
+    "name": "Headphone-4" ,
+      "catagoryId":4,
+      "description":"Description goes here",
+      "price":800,
+      "Brand_NAme":"Oppo",
+      "rating":4.4,
+      "reviews":500,
+      "warrenty":2
+    },
+    { "id": 2, 
+        "name": "Headphone-2" ,
+        "catagoryId":3,
+        "description":"Description goes here",
+        "price":550,
+        "Brand_NAme":"BOAt",
+        "rating":4.6,
+        "reviews":499,
+        "warrenty":2
+    },
+    { "id": 3, 
+    "name": "Headphone-3" ,
+      "catagoryId":3,
+      "description":"Description goes here",
+      "price":600,
+      "Brand_NAme":"One-Plus",
+      "image":"Headphone-3.jpeg",
+      "rating":4.3,
+      "reviews":700,
+      "warrenty":1
+   }
+    ],
+    "catagories":[
+      {"id":1, "catagoryName":"Dress"},
+      {"id":2,"catagoryName":"t-shirt"},
+      {"id":3, "catagoryName":"jeans"},
+      {"id":4, "catagoryName":"tops"},
+      {"id":5, "catagoryName":"Saree"},
+      {"id":6, "catagoryName":"Salwar"}
+
+  ],
+    "comments": [
+      { "id": "1", "text": "a comment about post 1", "postId": "1" },
+      { "id": "2", "text": "another comment about post 1", "postId": "1" }
+    ],
+    "profile": {
+      "name": "Electronic"
+    }
+  }

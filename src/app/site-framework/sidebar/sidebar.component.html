@@ -1,0 +1,11 @@
+<p>sidebar works!</p>
+<a href="products" class="list-group-items" style="background-color: aqua;">View All Products</a>
+    <div class="list-group" *ngFor="let cat of catagoryList">
+        
+        <a  href="products/catagory/{{cat.id}}" class="list-group-items" >
+            
+            {{ cat.catagoryName }}
+        </a>
+       
+
+    </div>
